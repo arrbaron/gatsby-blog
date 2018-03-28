@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Sidebar from '../components/Sidebar';
 
+console.log(Sidebar);
 const IndexPage = ({ data }) => (
+  
   <div>
     <ul>
       {data.allMarkdownRemark.edges.map(post => (
@@ -17,7 +19,7 @@ const IndexPage = ({ data }) => (
       ))}
     </ul>
     <aside>
-      {Sidebar}
+      <Sidebar />
     </aside>
   </div>
 )
