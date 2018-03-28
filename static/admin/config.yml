@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: gatsby-blog
+  repo: soundofsilence75/gatsby-blog
 
 media_folder: static/assets
 
