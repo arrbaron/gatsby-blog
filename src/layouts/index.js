@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import './index.css'
+import Sidebar from '../components/Sidebar';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -25,6 +26,7 @@ const TemplateWrapper = ({ children }) => (
     >
       {children()}
     </div>
+    {Sidebar}
   </div>
 )
 

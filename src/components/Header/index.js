@@ -1,33 +1,19 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import logo from '../../images/logo-light.png';
+import './style.css';
 
 const Header = () => (
-  <div
-    style={{
-      background: 'black',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </div>
-  </div>
+  <header role="banner">
+      <Link to="/">
+        <div>
+          <img src={logo} alt="Roy Baron logo" className="header__logo" />
+          <h1 style={{ margin: 0 }}>
+            Roy's Blog Website
+          </h1>
+        </div>
+      </Link>
+  </header>
 )
 
 export default Header
