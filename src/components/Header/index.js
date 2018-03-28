@@ -9,7 +9,7 @@ const Header = () => (
         <div>
           <img src={logo} alt="Roy Baron logo" className="header__logo" />
           <h1 style={{ margin: 0 }}>
-            Roy's Blog Websiteeeeeee
+            Roy's Blog Website
           </h1>
         </div>
       </Link>
