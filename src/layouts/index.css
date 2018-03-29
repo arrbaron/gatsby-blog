@@ -1,5 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
 html {
-  font-family: sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -7,6 +9,27 @@ html {
 body {
   margin: 0;
   box-sizing: border-box;
+  background-image: url("../images/dust.png");
+  font-size: 1.3em;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+code, pre {
+  background: #f5f7f9;
+  color: #a7adba;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #69c;
 }
 
 ul {
@@ -16,6 +39,15 @@ ul {
 
 li {
   list-style: none;
+}
+
+a {
+  color: cornflowerblue;
+  transition: all 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
 }
 
 @media only screen and (max-width: 480px) {

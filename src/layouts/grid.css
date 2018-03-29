@@ -8,10 +8,36 @@
   height: 100%;
   display: grid;
   grid-template: 
-    120px 1fr
-    / 80% 20%;
+    80px
+    1fr
+    80px
+    / 25% 50% 25%;
+  grid-template-areas: 
+    "header header header"
+    ". posts sidebar"
+    "footer footer footer"
 }
 
 header {
   grid-column: span 2;
+  grid-area: header;
+}
+
+footer {
+  grid-column: span 2;
+  grid-area: footer;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.posts {
+  grid-area: posts;
+}
+
+@media only screen and (max-width: 480px) {
+  .grid {
+    display: block;
+  }
 }

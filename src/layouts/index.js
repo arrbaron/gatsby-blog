@@ -4,16 +4,17 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 import './index.css'
 import './grid.css';
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Roy's Blog Website"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'A blogging website from Roy' },
+        { name: 'keywords', content: 'web development, blogging' },
       ]}
     />
     <div className="grid">
@@ -22,6 +23,7 @@ const TemplateWrapper = ({ children }) => (
         {children()}
       </div>
       <Sidebar />
+      <Footer />
     </div>
   </div>
 )
