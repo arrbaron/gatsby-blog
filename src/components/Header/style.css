@@ -41,6 +41,10 @@ header img {
     text-align: center;
   }
 
+  header h1 {
+    font-size: 1.75em;
+  }
+
   header a div {
     display: block;
   }
