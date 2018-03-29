@@ -2,7 +2,7 @@
 path: '/second-post'
 title: 'Second Blog Post'
 published: true
-date: '2018-03-26'
+date: '2018-03-30'
 ---
 
 Interactively visualize ethical value before B2B users. Energistically build stand-alone outsourcing before optimal benefits. Quickly repurpose mission-critical relationships for client-focused architectures. Quickly evolve timely partnerships for reliable potentialities. Credibly syndicate world-class results through backend bandwidth.

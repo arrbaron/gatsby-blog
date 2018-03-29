@@ -11,7 +11,7 @@ import './grid.css';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Roy's Blog Website"
+      title="cornflowerblues"
       meta={[
         { name: 'description', content: 'A blogging website from Roy' },
         { name: 'keywords', content: 'web development, blogging' },

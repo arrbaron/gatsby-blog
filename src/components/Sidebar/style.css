@@ -1,9 +1,39 @@
 .sidebar {
-  padding-left: 10%;
+  justify-self: center;
+}
+
+.sidebar h3 {
+  color: cornflowerblue;
+}
+
+.sidebar li {
+  margin-bottom: 1%;
+}
+
+.to-learn {
+  list-style: url('../../images/circle.svg');
+}
+
+.learning {
+  list-style: url('../../images/spinner.svg');
+}
+
+.learned {
+  text-decoration: line-through;
+  color: grey;
+  list-style: url('../../images/check.svg');
 }
 
 @media only screen and (max-width: 480px) {
   .sidebar {
-    margin-bottom: 7%;
+    margin: 0 auto 7% auto;
+  }
+
+  .sidebar h3 {
+    text-align: center;
+  }
+
+  .sidebar ul {
+    padding-left: 10%;
   }
 }

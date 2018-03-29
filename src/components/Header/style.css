@@ -1,9 +1,10 @@
 header {
-  background: black;
+  background: cornflowerblue;
   padding: 2%;
   padding-left: 27%;
   display: flex;
   align-items: center;
+  border-top: 2px solid black;
 }
 
 header a div {
@@ -13,6 +14,7 @@ header a div {
 
 header h1 {
   color: white;
+  margin-right: 2%;
 }
 
 header a {
