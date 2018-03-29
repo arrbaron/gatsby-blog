@@ -19,12 +19,10 @@
 }
 
 header {
-  grid-column: span 2;
   grid-area: header;
 }
 
 footer {
-  grid-column: span 2;
   grid-area: footer;
 }
 
