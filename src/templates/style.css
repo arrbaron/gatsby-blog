@@ -1,6 +1,7 @@
 .post {
   padding: 0 10% 0 10%;
   line-height: 1.5em;
+  margin-bottom: 5%;
 }
 
 .post__content img {
@@ -20,6 +21,14 @@
   padding: 1%;
   font-size: 0.9em;
   text-align: center;
+}
+
+.post pre {
+  line-height: 1.1rem;
+}
+
+.post pre code {
+  line-height: 1.3rem;
 }
 
 @media only screen and (max-width: 480px) {

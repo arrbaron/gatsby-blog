@@ -32,7 +32,7 @@ code {
 }
 
 pre {
-  padding: 1em;
+  padding-left: 1em;
   border-left: 2px solid #69c;
 }
 
@@ -44,6 +44,7 @@ ul {
 a {
   color: cornflowerblue;
   transition: all 0.3s;
+  text-decoration: none;
 }
 
 a:hover {
