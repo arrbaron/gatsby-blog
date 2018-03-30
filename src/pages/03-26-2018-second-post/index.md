@@ -20,24 +20,24 @@ animals: {
     {
       name: 'Ziggy',
       age: 17,
-      gender: f
+      gender: 'f'
     },
     {
       name: 'Marvin',
       age: 4,
-      gender: m
+      gender: 'm'
     }
   ],
   dogs: [
     {
       name: 'Clapton',
       age: 2,
-      gender: m
+      gender: 'm'
     },
     {
       name: 'Layla',
       age: 10,
-      gender: f
+      gender: 'f'
     }
   ]
 }
