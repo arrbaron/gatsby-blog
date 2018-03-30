@@ -68,10 +68,10 @@ Okay... now let's cats AND dogs but ONLY their names...
 ```
 animals {
   cats {
-    age
+    name
   }
   dogs {
-    age
+    name
   }
 }
 ```
