@@ -6,7 +6,7 @@ date: '2018-03-30'
 tags: 'intro cornflower-blues hello-world'
 ---
 
-One of the main reasons I set up this blog was to start flirting with GraphQL, as [Gatsby](https://www.gatsbyjs.org/) (more on that in a later post) uses GraphQL uses it for data fetching.
+One of the main reasons I set up this blog was to start flirting with GraphQL, because [Gatsby](https://www.gatsbyjs.org/) (more on that in a later post) uses GraphQL for data fetching.
 
 ### What is GraphQL?
 
@@ -54,7 +54,7 @@ You can see that what started out as semantically nice endpoints quickly compoun
 
 ### Should I give into despair?
 
-Yes! But wait until the end of this blog post! Enter __GraphQL__ to save the day! Our good buddy allows us to write queries that __mimic the data you're expecting back__. This is the real power of GraphQL. So let's look for kitties again, this time with GraphQL.
+Yes! But not until after reading this blog post! Enter __GraphQL__ to save the day! Our good buddy allows us to write queries that __mimic the data you're expecting back__. This is the real power of GraphQL. So let's look for kitties again, this time with GraphQL.
 
 ```
 animals

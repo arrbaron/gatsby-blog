@@ -7,7 +7,7 @@ const Sidebar = props => (
     <ul>
       <li className="to-learn">Advanced Accessibility</li>
       <li className="to-learn">Styled Components</li>
-      <li className="to-learn">React Native</li>
+      <li className="learning">React Native</li>
       <li className="to-learn">Redux Saga</li>
       <li className="to-learn">Async Await</li>
       <li className="to-learn">Vue</li>
